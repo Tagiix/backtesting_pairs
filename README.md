@@ -70,10 +70,6 @@ python main.py --tickers XOM CVX KO PEP --start 2018-01-01 --end 2024-12-31
 | OU half-life | 27.7 days | — |
 | MC positive paths | 62.6% | — |
 
-## Mathematical Background
-
-Full derivations (cointegration, OU process, bootstrap theory, coherent risk measures) are in [`README_math.md`](README_math.md).
-
 ## Dependencies
 
 `yfinance`, `pandas`, `numpy`, `statsmodels`, `scipy`, `matplotlib`, `seaborn`, `jupyter`
@@ -86,3 +82,4 @@ Full derivations (cointegration, OU process, bootstrap theory, coherent risk mea
 - Lo (2002) — The Statistics of Sharpe Ratios
 - Politis & Romano (1994) — The Stationary Bootstrap
 - Artzner et al. (1999) — Coherent Measures of Risk
+- Roncalli, T. — [Risk Management](http://www.thierry-roncalli.com/RiskManagementBook.html)
